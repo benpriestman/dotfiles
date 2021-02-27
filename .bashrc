@@ -124,10 +124,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.tfenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# vagrant stuff
-export VAGRANT_DEFAULT_PROVIDER=libvirt
-export SF_VAGRANT_VIRTUALBOX_INTNET=1
-
 # environment settings
 export VISUAL=vim
 export EDITOR="$VISUAL"

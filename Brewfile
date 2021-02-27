@@ -10,6 +10,13 @@ brew "awscli"
 brew "aws-cdk"
 cask "aws-vault"
 
+# dev tools
+cask "visual-studio-code"
+
+# Virtual environments
+cask "virtualbox"
+cask "vagrant"
+
 #k8s
 brew "kubectl"
 brew "minikube"
@@ -22,3 +29,6 @@ cask "xquartz"
 brew "dmenu"
 brew "zenity"
 
+# Network tools
+brew "speedtest-cli"
+brew "telnet"
